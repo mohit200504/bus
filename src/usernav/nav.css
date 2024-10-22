@@ -1,0 +1,25 @@
+.nav{
+    height: 70px;
+    width: 100%;
+   background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+h3{
+    margin-left: 15px;
+}
+
+#myticket{
+    margin-right: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    
+}

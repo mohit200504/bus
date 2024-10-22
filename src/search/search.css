@@ -1,0 +1,55 @@
+.searchitems{
+    height: 100vh;
+    width: 100%;
+   
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.sea{
+    margin-top: 10px;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    box-shadow: 0px 0px 4px gray;
+    border-radius: 4px;
+
+cursor: pointer;
+}
+
+.row{
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+#imgins{
+    height: 20px;
+    width: 20px;
+}
+
+.cal{
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#cal{
+
+    height: 50px;
+    width: 50px;
+
+}

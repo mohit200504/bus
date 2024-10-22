@@ -1,0 +1,44 @@
+.userreg{
+    width: 300px;
+    height: 400px;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    
+    border: 1px solid white;
+    box-shadow: 0px 0px 3px gray;
+    border-radius: 4px;
+
+
+}
+
+input{
+    height: 30px;
+    width: 250px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+
+}
+.buttons{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+button{
+    background-color:lightgray;
+    outline: none;
+    border: 0px;
+    height: 30px;
+    border-radius: 3px;
+}

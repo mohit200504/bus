@@ -1,0 +1,99 @@
+.bus{
+
+    height: 100vh;
+    width: 100%;
+   
+
+   justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:20px;
+}
+.seats{
+    height: 200px;
+    width: 95%;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0px 0px 4px gray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 3px;
+
+}
+
+.seat{
+
+    height: 30%;
+    width: 10%;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 0.5px solid white;
+    border-radius: 4px;
+cursor: pointer;
+}
+
+.seat-booked{
+
+    height: 30%;
+    width: 10%;
+    background-color: lightcoral;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 0.5px solid white;
+
+}
+
+.ticketbook{
+    height: 250px;
+    width: 500px;
+   border: 1px solid white;
+   box-shadow: 0px 0px 4px gray;
+   border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   gap:-5px;
+    
+}
+
+.indi{
+    width: 200px;
+    height: 50px;
+   
+ 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gray{
+    height: 50px;
+    width: 80px;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color:white
+}
+
+.red{
+    height: 50px;
+    width: 80px;
+    background-color: lightcoral;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color:white
+}

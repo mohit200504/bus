@@ -1,0 +1,23 @@
+.sellernav{
+    height: 80px;
+    width: 100%;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#h{
+    margin-right: 15px;
+
+}
+
+.navs{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
